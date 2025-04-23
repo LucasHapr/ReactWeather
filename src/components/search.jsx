@@ -23,7 +23,7 @@ const Search = ({ isSearching, onLocationChange }) => {
           type="search"
           role="search"
           onChange={onLocationChange}
-          placeholder="Search for a location"
+          placeholder="Busque por uma cidade"
           className="mr-4 md:mr-8 w-48 text-center placeholder-gray-500 outline-none dark:bg-black dark:text-white dark:placeholder-white md:w-96"
         />
         {isSearching ? (
@@ -33,7 +33,7 @@ const Search = ({ isSearching, onLocationChange }) => {
             fill="none"
             viewBox="0 0 24 24"
           >
-            <title>Search for a location</title>
+            <title>Busque por uma cidade"</title>
             <circle
               className="opacity-25"
               cx="12"
