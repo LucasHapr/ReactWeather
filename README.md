@@ -15,9 +15,7 @@ Inclui informações de temperatura, condição meteorológica, umidade, vento e
 
 - Vite  
 - React  
-- TypeScript (opcional)  
 - Fetch API  
-- CSS Modules (ou sua preferência)  
 
 ---
 
