@@ -79,7 +79,7 @@ const About = () => {
                 className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/lucas/react-weather"
+                href="https://github.com/LucasHapr/ReactWeather"
               >
                 GitHub
               </a>{' '}
