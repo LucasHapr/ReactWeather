@@ -93,10 +93,16 @@ const NavBar = () => {
             <div className="flex flex-1 items-center justify-end sm:items-stretch sm:justify-end">
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex items-center space-x-4">
+                  <Link
+                    to="/about"
+                    className="rounded-md px-3 py-2 text-lg font-medium text-gray-500 hover:text-gray-700 dark:text-white dark:hover:text-gray-600"
+                  >
+                    Sobre
+                  </Link>
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/lucasHapr"
+                    href="https://github.com/LucasHapr/ReactWeather"
                     className="text-gray-400 transition-colors duration-200 hover:text-gray-500"
                   >
                     <span className="sr-only">React Weather on GitHub</span>
@@ -137,12 +143,12 @@ const NavBar = () => {
               className="block rounded-md px-3 py-2 text-base font-medium text-indigo-700 hover:bg-indigo-400 hover:text-white dark:bg-none dark:text-white dark:hover:bg-gray-600"
               onClick={toggleButton}
             >
-              About
+              Sobre
             </Link>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/denniskigen/react-weather"
+              href="https://github.com/LucasHapr/ReactWeather"
               className="block rounded-md px-3 py-2 text-base font-medium text-indigo-700 hover:bg-indigo-400 hover:text-white dark:text-white dark:hover:bg-gray-600"
             >
               GitHub
@@ -154,7 +160,7 @@ const NavBar = () => {
                 htmlFor="theme"
                 className="font-normal text-slate-700 dark:text-white "
               >
-                Switch theme
+                Mudar tema
               </label>
               <div className="dark:highlight-white/5 relative flex items-center rounded-lg font-semibold text-slate-700 shadow-sm ring-1 ring-slate-900/10 dark:bg-slate-700 dark:text-slate-200">
                 <Toggle />

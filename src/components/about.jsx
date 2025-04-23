@@ -11,34 +11,34 @@ const About = () => {
         >
           <div className="p-4 text-gray-500 dark:text-gray-400">
             <h3 className="font-sans text-xl font-medium text-gray-600 dark:text-white">
-              About ReactWeather
+              Sobre o ReactWeather
             </h3>
             <p className="pt-4">
-              ReactWeather is a beautiful weather app built on top of the{' '}
+              O ReactWeather é um aplicativo de clima bonito, construído com a API{' '}
               <a
                 className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
-                href="https://openweathermap.com/api"
+                href="https://www.weatherapi.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                OpenWeatherMap API
+                WeatherAPI
               </a>
               .
             </p>
             <p className="pt-4">
-              It is a labor of ❤️ open-source project by me,{' '}
+              Este é um projeto de código aberto feito por mim,{' '}
               <a
                 className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
-                href="https://denniskigen.com"
+                href="https://github.com/lucasHapr"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Dennis Kigen
+                Lucas
               </a>
-              , a software developer, writer and maker of cool stuff.
+              , um desenvolvedor de software.
             </p>
             <p className="pt-4">
-              It runs on{' '}
+              O aplicativo foi desenvolvido utilizando{' '}
               <a
                 className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
                 href="https://reactjs.org/"
@@ -47,7 +47,7 @@ const About = () => {
               >
                 React
               </a>{' '}
-              and{' '}
+              e{' '}
               <a
                 className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
                 href="https://tailwindcss.com"
@@ -56,49 +56,49 @@ const About = () => {
               >
                 TailwindCSS
               </a>
-              . It uses{' '}
+              . Ele utiliza os{' '}
               <a
                 className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
                 href="https://erikflowers.github.io/weather-icons/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Erik Flowers&apos; weather icons
+                ícones de clima de Erik Flowers
               </a>{' '}
-              and is hosted on{' '}
+              e está hospedado na{' '}
               <a
                 className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
-                href="https://react-weather.denniskigen.com"
+                href="https://vercel.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Vercel
               </a>
-              . If you like the project, please fork it on{' '}
+              . Se você gostou do projeto, sinta-se à vontade para fazer um fork no{' '}
               <a
                 className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/denniskigen/react-weather"
+                href="https://github.com/lucas/react-weather"
               >
                 GitHub
               </a>{' '}
-              and leave a star!
+              e deixar uma estrela!
             </p>
             <p className="pt-4">
-              Thanks for swinging by. Enjoy the rest of your day!
+              Obrigado por visitar. Tenha um ótimo dia!
             </p>
           </div>
         </section>
         <div className="flex justify-center">
           <a
-            href="https://www.buymeacoffee.com/denniskigen"
+            href="https://www.buymeacoffee.com/lucas"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-              alt="Buy Me A Coffee"
+              alt="Compre-me um café"
               className="h-16 w-56 rounded-lg shadow"
             />
           </a>
