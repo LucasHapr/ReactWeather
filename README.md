@@ -57,12 +57,10 @@ Inclui informações de temperatura, condição meteorológica, umidade, vento e
 
 ---
 
-## 🛠️ Scripts Úteis
+## 🖼️ Imagens do App
 
-| Comando           | Descrição                                |
-|-------------------|------------------------------------------|
-| `npm run dev`     | Inicia o servidor de desenvolvimento     |
-| `npm run build`   | Gera o build de produção                 |
-| `npm run preview` | Visualiza o build de produção localmente |
+### Tela Principal
+![Login Screen](./src/assets/home.png)
 
----
+### Tela Sobre o Projeto
+![Register Screen](./src/assets/about.png)
