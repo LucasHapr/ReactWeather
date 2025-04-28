@@ -60,7 +60,7 @@ Inclui informações de temperatura, condição meteorológica, umidade, vento e
 ## 🖼️ Imagens do App
 
 ### Tela Principal
-![Login Screen](./src/assets/home.png)
+![Home Screen](./src/assets/home.png)
 
 ### Tela Sobre o Projeto
-![Register Screen](./src/assets/about.png)
+![About Screen](./src/assets/about.png)
